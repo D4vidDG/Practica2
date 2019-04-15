@@ -9,16 +9,28 @@
  * @author Estudiante
  */
 public class Dog {
-    public String nombre;
-    public int Peso;
-    public int Edad;
-    public String Color;
-    public void comer(){
+    private String nombre;
+    private int Peso;
+    private int Edad;
+    private String Color;
+    private void comer(){
     }
-    public void correr(){
+    private void correr(){
     }
-    public void dormir(){
+    private void dormir(){
     }
-    public void ladrar(){
+    private void ladrar(){
     }
+    public Dog(String nombre, int edad){
+        this.nombre=nombre;
+        this.Edad=Edad;
+    }
+    public int getPeso(){
+    return Peso;
+    }
+    
+    public void setPeso(int Peso){
+     this.Peso=Peso;   
+    }
+    
 }
