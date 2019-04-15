@@ -10,10 +10,9 @@
  */
 public class Main {
     public static void main(String[] args) {
-        Dog Miguel =new Dog();
-        Miguel.nombre="Miguel";
-      System.out.println(Miguel.nombre);
-      
+        Dog Miguel =new Dog("Miguel",5);
+        Miguel.setPeso(3);
+        System.out.println(Miguel.getPeso());
     }
     
          
